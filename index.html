@@ -661,8 +661,6 @@ Differences based on Gender
             </div>
         </div>
         <!-- Portfolio End -->
-
-
         <!-- Blog Start -->
         <div class="container-fluid" id="pigraBlog">
             <div class="container">
@@ -783,8 +781,6 @@ Differences based on Gender
             </div>
         </div>
         <!-- Blog End -->
-
-
         <!-- Testimonial Start -->
         <div class="container-fluid">
             <div class="container">
@@ -891,99 +887,6 @@ Differences based on Gender
             </div>
         </div>
         <!-- Testimonial End -->
-
-
-        <!-- Contact Start -->
-        <div class="container-fluid" id="pigraContact">
-            <div class="container">
-                <div class="row g-0">
-                    <div class="col-lg-3">
-                        <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
-                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
-                                <p class="text-white sub-title">Contact Me</p>
-                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                       <div class="contact-content h-100 pt-6 ps-6 pb-6">
-                            <div class="bg-light p-4">
-                                <div class="row g-5">
-                                    <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
-                                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fas fa-map-marker-alt"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Address</h4>
-                                                <p class="mb-0">Nurjahan Road, Mohammadpur, Dhaka-1207, Bangladesh</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-4">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fas fa-envelope"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Mail Us</h4>
-                                                <p class="mb-0">tafazzal.edu@gmail.com</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="btn-xl-square bg-primary text-white me-3">
-                                                <i class="fa fa-phone-alt"></i>
-                                            </div>
-                                            <div>
-                                                <h4>Mobile</h4>
-                                                <p class="mb-0">(+880) 1648520548</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
-                                        <div>
-                                             <form id="contactForm">
-    <h2>Contact Us</h2>
-    <input type="text" name="name" placeholder="Your Name" required />
-    <input type="email" name="email" placeholder="Your Email" required />
-    <textarea name="message" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-    <div class="message" id="responseMsg"></div>
-  </form>
-
-  <script>
-    document.getElementById("contactForm").addEventListener("submit", function(e) {
-      e.preventDefault();
-      
-      const form = e.target;
-      const formData = new FormData(form);
-
-      fetch("contact.php", {
-        method: "POST",
-        body: formData
-      })
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("responseMsg").innerText = data;
-        form.reset();
-      })
-      .catch(err => {
-        document.getElementById("responseMsg").innerText = "Error sending message.";
-      });
-    });
-  </script>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-
         <!-- Footer Start -->
         <div class="container-fluid footer bg-dark border-bottom-0">
             <div class="container wow fadeIn" data-wow-delay="0.1s">
